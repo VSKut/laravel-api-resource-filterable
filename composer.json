@@ -1,0 +1,22 @@
+{
+  "name": "vskut/laravel-api-resource-filterable",
+  "description": "Filtering trait for Laravel 5 Api Resources.",
+  "keywords": ["laravel", "filterable"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Markus Lind",
+      "email": "me@vskut.ru",
+      "homepage": "https://github.com/vskut/laravel-api-resource-filterable",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=7.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "vskut\\laravelApiResourceFilterable\\": "src/"
+    }
+  }
+}
