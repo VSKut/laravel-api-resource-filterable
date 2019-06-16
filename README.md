@@ -67,7 +67,7 @@ class UserController extends Controller
         $users = User::all();
     
         return UserCollection::make($users)->only(['id', 'name', 'email']);
-        return UserCollection::make($users)->except(['email']);
+        //return UserCollection::make($users)->except(['email']);
     }
 
     public function show(User $user)
